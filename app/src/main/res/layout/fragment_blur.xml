@@ -62,12 +62,17 @@
         tools:layout="@layout/fragment_player_playback_controls" />
 
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <code.name.monkey.retromusic.views.EqualSpacingToolbar
         android:id="@+id/playerToolbar"
         style="@style/Toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
